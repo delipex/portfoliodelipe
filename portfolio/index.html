@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Felipe Damasceno — Designer Gráfico & Diretor de Arte</title>
+    <meta name="description" content="Portfólio criativo de Felipe Damasceno, Designer Gráfico e Diretor de Arte. Projetos de branding, campanhas de marketing, design editorial e identidade visual.">
+    
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="Felipe Damasceno — Designer Gráfico & Diretor de Arte">
+    <meta property="og:description" content="Portfólio de Felipe Damasceno (@delipedesign). Branding, Editorial, Direção de Arte e Campanhas de Marketing.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.delipedesign.com">
+    
+    <!-- Google Fonts: Syne & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo text-magnetic">
+                delipe<span class="highlight">design</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#work" class="nav-link text-magnetic">Projetos</a>
+                <a href="#about" class="nav-link text-magnetic">Sobre</a>
+                <a href="#services" class="nav-link text-magnetic">Serviços</a>
+                <a href="#social-feed" class="nav-link text-magnetic">Redes</a>
+                <a href="#contact" class="nav-link text-magnetic">Contato</a>
+            </nav>
+
+            <button class="menu-toggle text-magnetic" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay">
+        <div class="mobile-nav-links">
+            <a href="#work" class="mobile-link">Projetos</a>
+            <a href="#about" class="mobile-link">Sobre</a>
+            <a href="#services" class="mobile-link">Serviços</a>
+            <a href="#social-feed" class="mobile-link">Redes</a>
+            <a href="#contact" class="mobile-link">Contato</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-container">
+            <img src="docs/banner_abstract_1784291481630.png" alt="Abstract Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <p class="hero-subtitle scroll-reveal">DESIGNER GRÁFICO & DIRETOR DE ARTE</p>
+            <h1 class="hero-title scroll-reveal">
+                Criando <span class="text-gradient">identidades</span><br>
+                e moldando <span class="text-gradient">conceitos</span>.
+            </h1>
+            <p class="hero-description scroll-reveal">
+                Desenvolvendo soluções visuais impactantes de branding, editorial e campanhas de marketing estratégico para grandes marcas.
+            </p>
+            
+            <div class="hero-actions scroll-reveal">
+                <a href="#work" class="btn btn-primary text-magnetic">Explorar Projetos <i data-lucide="arrow-down"></i></a>
+                <a href="#contact" class="btn btn-secondary text-magnetic">Vamos Conversar</a>
+            </div>
+            
+            <div class="hero-socials scroll-reveal">
+                <a href="https://www.behance.net/delipedesign" target="_blank" class="social-link text-magnetic" aria-label="Behance">
+                    <i data-lucide="external-link"></i> Behance
+                </a>
+                <a href="https://www.instagram.com/delipedesign/" target="_blank" class="social-link text-magnetic" aria-label="Instagram">
+                    <i data-lucide="instagram"></i> Instagram
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-down-indicator text-magnetic">
+            <span>Rolar para baixo</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work / Portfolio Section -->
+    <section class="work" id="work">
+        <div class="section-container">
+            <div class="section-header scroll-reveal">
+                <p class="section-subtitle">TRABALHOS RECENTES</p>
+                <h2 class="section-title">Portfólio de Destaques</h2>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="filter-bar scroll-reveal">
+                <button class="filter-btn active text-magnetic" data-filter="all">Todos</button>
+                <button class="filter-btn text-magnetic" data-filter="branding">Branding</button>
+                <button class="filter-btn text-magnetic" data-filter="marketing">Campanhas</button>
+                <button class="filter-btn text-magnetic" data-filter="editorial">Editorial</button>
+                <button class="filter-btn text-magnetic" data-filter="art-direction">Direção de Arte</button>
+                <button class="filter-btn text-magnetic" data-filter="illustration">Ilustração</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                
+                <!-- Project 1: UNIFAN Branding -->
+                <div class="project-card scroll-reveal" data-category="branding" data-project-id="unifan-branding">
+                    <div class="project-image-wrapper">
+                        <img src="docs/unifan_branding_1784291883101.png" alt="UNIFAN Ipirá Brand Identity" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">01</span>
+                            <div class="project-info">
+                                <span class="project-category">Branding / Identidade Visual</span>
+                                <h3 class="project-title">UNIFAN Ipirá — Identidade de Campus</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: UNIFAN Campaign -->
+                <div class="project-card scroll-reveal" data-category="marketing" data-project-id="unifan-campaign">
+                    <div class="project-image-wrapper">
+                        <img src="docs/unifan_campaign_1784291895211.png" alt="UNIFAN Ipirá Launch Campaign" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">02</span>
+                            <div class="project-info">
+                                <span class="project-category">Campanhas / Marketing</span>
+                                <h3 class="project-title">UNIFAN Ipirá — Campanha de Lançamento</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Mauvik Music Video -->
+                <div class="project-card scroll-reveal" data-category="art-direction" data-project-id="mauvik-video">
+                    <div class="project-image-wrapper">
+                        <img src="docs/mauvik_poster_1784291439896.png" alt="Não Vai Ser em Vão - Mauvik" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">03</span>
+                            <div class="project-info">
+                                <span class="project-category">Direção de Arte / Audiovisual</span>
+                                <h3 class="project-title">Mauvik — 'Não Vai Ser em Vão'</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Grupo Nobre Editorial -->
+                <div class="project-card scroll-reveal" data-category="editorial" data-project-id="grupo-nobre-editorial">
+                    <div class="project-image-wrapper">
+                        <img src="docs/nobre_editorial_1784291449926.png" alt="Grupo Nobre Brandbook" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">04</span>
+                            <div class="project-info">
+                                <span class="project-category">Editorial / Brandbook</span>
+                                <h3 class="project-title">Grupo Nobre — Manual de Identidade</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: The Feather Pencil -->
+                <div class="project-card scroll-reveal" data-category="illustration" data-project-id="feather-pencil">
+                    <div class="project-image-wrapper">
+                        <img src="docs/feather_pencil_1784291460798.png" alt="The Feather Pencil Illustration" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">05</span>
+                            <div class="project-info">
+                                <span class="project-category">Ilustração / Affinity Designer</span>
+                                <h3 class="project-title">The Feather Pencil — Estudo Vetorial</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Love Point Branding -->
+                <div class="project-card scroll-reveal" data-category="branding" data-project-id="love-point">
+                    <div class="project-image-wrapper">
+                        <img src="docs/love_point_1784291470092.png" alt="Love Point Brand Identity" class="project-img">
+                        <div class="project-hover-overlay">
+                            <span class="project-num">06</span>
+                            <div class="project-info">
+                                <span class="project-category">Branding / Embalagem</span>
+                                <h3 class="project-title">Love Point — Conceito de Marca</h3>
+                            </div>
+                            <span class="project-arrow-btn"><i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container grid-2">
+            <div class="about-image-side scroll-reveal">
+                <div class="about-image-card">
+                    <img src="docs/banner_abstract_1784291481630.png" alt="Felipe Damasceno Art Direction" class="about-photo">
+                    <div class="badge-experience">
+                        <span class="years">7+</span>
+                        <span class="label">Anos de<br>Experiência</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-content scroll-reveal">
+                <p class="section-subtitle">SOBRE MIM</p>
+                <h2 class="section-title">Design estratégico que comunica e converte.</h2>
+                <p class="about-text">
+                    Olá! Sou <strong>Felipe Damasceno</strong>, designer gráfico e diretor de arte focado em criar identidades marcantes, comunicação de impacto e designs institucionais robustos. Sob a assinatura de <strong>@delipedesign</strong>, atuo transformando conceitos complexos em experiências visuais refinadas.
+                </p>
+                <p class="about-text">
+                    Atualmente, desempenho o papel de <strong>Vice-Coordenador de Marketing do Grupo Nobre</strong>, gerenciando a comunicação e a direção de arte de marcas educacionais de relevância nacional, como a <strong>UNIFAN (Centro Universitário Nobre)</strong> e suas expansões de campus no interior da Bahia.
+                </p>
+                <p class="about-text">
+                    Minha abordagem une sensibilidade artística com metas estratégicas de marketing, assegurando que cada peça criada alcance o público com clareza e autoridade.
+                </p>
+                
+                <div class="skills-tags">
+                    <span class="skill-tag">Direção de Arte</span>
+                    <span class="skill-tag">Branding / Identidade</span>
+                    <span class="skill-tag">Design Editorial</span>
+                    <span class="skill-tag">Campanhas Integradas</span>
+                    <span class="skill-tag">Social Media Estratégico</span>
+                    <span class="skill-tag">Ilustração Vetorial</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header scroll-reveal">
+                <p class="section-subtitle">O QUE FAÇO</p>
+                <h2 class="section-title">Minhas Especialidades</h2>
+            </div>
+            
+            <div class="services-grid">
+                
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i data-lucide="crown"></i></div>
+                    <h3 class="service-title">Branding & Identidade</h3>
+                    <p class="service-desc">
+                        Criação de logotipos, manuais de marca (brandbooks), paletas cromáticas e tipografia institucional completa para posicionar sua marca com destaque no mercado.
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i data-lucide="megaphone"></i></div>
+                    <h3 class="service-title">Campanhas de Lançamento</h3>
+                    <p class="service-desc">
+                        Desenvolvimento de todo o material offline (outdoors, banners, flyers) e online (anúncios, banners web) para campanhas publicitárias de alto engajamento.
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i data-lucide="book-open"></i></div>
+                    <h3 class="service-title">Design Editorial</h3>
+                    <p class="service-desc">
+                        Projeto gráfico para livros, cartilhas, relatórios corporativos e manuais corporativos. Diagramação moderna e foco absoluto na legibilidade e design fluído.
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon"><i data-lucide="film"></i></div>
+                    <h3 class="service-title">Direção de Arte</h3>
+                    <p class="service-desc">
+                        Supervisão conceitual para projetos multimídia, vídeos institucionais, videoclipes musicais e direção de peças que exigem consistência estética de altíssimo nível.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Feed Section -->
+    <section class="social-feed" id="social-feed">
+        <div class="section-container">
+            <div class="section-header scroll-reveal">
+                <p class="section-subtitle">LIVE FEEDS</p>
+                <h2 class="section-title">Conecte-se nas Redes</h2>
+                <p class="social-feed-desc">Veja os últimos projetos publicados e atualizações rápidas diretamente no Behance e no Instagram.</p>
+            </div>
+            
+            <div class="social-grids grid-2">
+                <!-- Behance Column -->
+                <div class="social-col scroll-reveal">
+                    <div class="social-col-header">
+                        <div class="social-col-title-wrapper">
+                            <i data-lucide="external-link" class="social-icon-title behance-color"></i>
+                            <h3>Últimos no Behance</h3>
+                        </div>
+                        <a href="https://www.behance.net/delipedesign" target="_blank" class="btn-text link-underline">Ver Perfil Completo <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="social-feed-container" id="behance-feed-container">
+                        <!-- Caso queira um feed 100% automático, insira o script do seu widget (ex: Curator.io ou Elfsight) aqui dentro -->
+                        <div class="social-placeholder-grid">
+                            <a href="https://www.behance.net/delipedesign" target="_blank" class="social-placeholder-card">
+                                <img src="docs/unifan_branding_1784291883101.png" alt="Behance Post">
+                                <span class="placeholder-overlay"><i data-lucide="eye"></i> Ver no Behance</span>
+                            </a>
+                            <a href="https://www.behance.net/delipedesign" target="_blank" class="social-placeholder-card">
+                                <img src="docs/nobre_editorial_1784291449926.png" alt="Behance Post">
+                                <span class="placeholder-overlay"><i data-lucide="eye"></i> Ver no Behance</span>
+                            </a>
+                            <a href="https://www.behance.net/delipedesign" target="_blank" class="social-placeholder-card">
+                                <img src="docs/love_point_1784291470092.png" alt="Behance Post">
+                                <span class="placeholder-overlay"><i data-lucide="eye"></i> Ver no Behance</span>
+                            </a>
+                            <a href="https://www.behance.net/delipedesign" target="_blank" class="social-placeholder-card">
+                                <img src="docs/feather_pencil_1784291460798.png" alt="Behance Post">
+                                <span class="placeholder-overlay"><i data-lucide="eye"></i> Ver no Behance</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Instagram Column -->
+                <div class="social-col scroll-reveal">
+                    <div class="social-col-header">
+                        <div class="social-col-title-wrapper">
+                            <i data-lucide="instagram" class="social-icon-title instagram-color"></i>
+                            <h3>Updates no Instagram</h3>
+                        </div>
+                        <a href="https://www.instagram.com/delipedesign/" target="_blank" class="btn-text link-underline">Seguir no Instagram <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="social-feed-container" id="instagram-feed-container">
+                        <!-- Caso queira um feed 100% automático, insira o script do seu widget (ex: Elfsight ou LightWidget) aqui dentro -->
+                        <div class="social-placeholder-grid">
+                            <a href="https://www.instagram.com/delipedesign/" target="_blank" class="social-placeholder-card">
+                                <img src="docs/unifan_campaign_1784291895211.png" alt="Instagram Post">
+                                <span class="placeholder-overlay"><i data-lucide="instagram"></i> Ver Post</span>
+                            </a>
+                            <a href="https://www.instagram.com/delipedesign/" target="_blank" class="social-placeholder-card">
+                                <img src="docs/mauvik_poster_1784291439896.png" alt="Instagram Post">
+                                <span class="placeholder-overlay"><i data-lucide="instagram"></i> Ver Post</span>
+                            </a>
+                            <a href="https://www.instagram.com/delipedesign/" target="_blank" class="social-placeholder-card">
+                                <img src="docs/banner_abstract_1784291481630.png" alt="Instagram Post">
+                                <span class="placeholder-overlay"><i data-lucide="instagram"></i> Ver Post</span>
+                            </a>
+                            <a href="https://www.instagram.com/delipedesign/" target="_blank" class="social-placeholder-card">
+                                <img src="docs/unifan_branding_1784291883101.png" alt="Instagram Post">
+                                <span class="placeholder-overlay"><i data-lucide="instagram"></i> Ver Post</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container grid-2">
+            <div class="contact-info-side scroll-reveal">
+                <p class="section-subtitle">VAMOS CONVERSAR?</p>
+                <h2 class="section-title">Tem um projeto<br>em mente?</h2>
+                <p class="contact-desc">
+                    Estou disponível para novos projetos, consultorias e parcerias criativas. Envie uma mensagem e vamos dar vida ao seu conceito!
+                </p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <div class="detail-icon"><i data-lucide="mail"></i></div>
+                        <div class="detail-info">
+                            <span class="detail-label">E-MAIL</span>
+                            <a href="mailto:delipedesign@gmail.com" class="detail-value link-underline">delipedesign@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <div class="detail-icon"><i data-lucide="instagram"></i></div>
+                        <div class="detail-info">
+                            <span class="detail-label">INSTAGRAM</span>
+                            <a href="https://www.instagram.com/delipedesign/" target="_blank" class="detail-value link-underline">@delipedesign</a>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-icon"><i data-lucide="external-link"></i></div>
+                        <div class="detail-info">
+                            <span class="detail-label">BEHANCE</span>
+                            <a href="https://www.behance.net/delipedesign" target="_blank" class="detail-value link-underline">behance.net/delipedesign</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-side scroll-reveal">
+                <form id="portfolio-contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Seu Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Ex: Felipe Damasceno" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Seu E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Ex: felipe@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Ex: Identidade Visual para Empresa" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Fale um pouco sobre o seu projeto..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block text-magnetic">Enviar Mensagem <i data-lucide="send"></i></button>
+                    
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Felipe Damasceno (@delipedesign). Todos os direitos reservados.</p>
+            <button class="back-to-top text-magnetic" id="btn-back-to-top" aria-label="Voltar ao topo">
+                <i data-lucide="arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Project Details Lightbox Modal -->
+    <div class="modal" id="project-modal" aria-hidden="true" role="dialog">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close text-magnetic" id="modal-close-btn" aria-label="Fechar Modal">
+                <i data-lucide="x"></i>
+            </button>
+            
+            <div class="modal-content">
+                <div class="modal-media">
+                    <img id="modal-project-img" src="" alt="Project Image">
+                </div>
+                
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <span class="modal-category" id="modal-project-category">Categoria</span>
+                        <h3 class="modal-title" id="modal-project-title">Título do Projeto</h3>
+                    </div>
+                    
+                    <div class="modal-meta-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">CLIENTE</span>
+                            <span class="meta-val" id="modal-project-client">Cliente</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">ANO</span>
+                            <span class="meta-val" id="modal-project-year">2026</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">FUNÇÃO</span>
+                            <span class="meta-val" id="modal-project-role">Diretor de Arte / Designer</span>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-description">
+                        <h4 class="description-title">Sobre o Projeto</h4>
+                        <p id="modal-project-desc">Descrição conceitual do projeto, detalhando o processo de criação, objetivos e o resultado visual obtido.</p>
+                    </div>
+                    
+                    <div class="modal-navigation">
+                        <button class="btn btn-secondary text-magnetic" id="modal-prev-btn"><i data-lucide="arrow-left"></i> Anterior</button>
+                        <a href="" target="_blank" class="btn btn-primary text-magnetic" id="modal-project-link">Ver Projeto Completo <i data-lucide="external-link"></i></a>
+                        <button class="btn btn-secondary text-magnetic" id="modal-next-btn">Próximo <i data-lucide="arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <script>
+        // Initialize lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
